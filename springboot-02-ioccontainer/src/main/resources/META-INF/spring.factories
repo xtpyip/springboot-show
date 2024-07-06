@@ -1,0 +1,13 @@
+com.pyip.springboot.assemble.d_spi.bean.DemoDao=\
+  com.pyip.springboot.assemble.d_spi.bean.DemoMySQLDaoImpl,\
+  com.pyip.springboot.assemble.d_spi.bean.DemoOracleDaoImpl
+
+com.pyip.spring.configuration.e_enablejdbc.config.EnableJdbc=\
+  com.pyip.spring.configuration.e_enablejdbc.config.MySQLJdbcConfiguration,\
+  com.pyip.spring.configuration.e_enablejdbc.config.OracleJdbcConfiguration,\
+  com.pyip.spring.configuration.e_enablejdbc.config.H2JdbcConfiguration
+
+java.sql.Driver=\
+  com.mysql.jdbc.Driver,\
+  oracle.jdbc.driver.OracleDriver,\
+  org.h2.Driver

@@ -1,0 +1,2 @@
+com.pyip.springboot.assemble.d_spi.bean.DemoMySQLDaoImpl
+com.pyip.springboot.assemble.d_spi.bean.DemoOracleDaoImpl

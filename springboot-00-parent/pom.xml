@@ -17,6 +17,7 @@
 
     <modules>
         <module>../springboot-01-quickstart</module>
+        <module>../springboot-02-ioccontainer</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
