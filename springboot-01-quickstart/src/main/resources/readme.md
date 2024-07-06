@@ -1,0 +1,17 @@
+### 本章总结
+- spring框架 spring Framework
+  - spring Framework是一个开源的，松耦合的，分层的，可配置的一站式企业级Java开发框架
+  - 核心为IOC(控制反转)和AOP(切面编程)
+  - 松耦合，ioc与aop尽可能地将对象之间的关系解耦
+  - 可配置，提供外部化配置的方式，可以灵活地配置容器及容器内的bean
+  - 一站式，覆盖企业级开发中的所有领域，JavaWeb,分布式，微服务，javaSE,GUI项目等
+  - 第三方整合，很方便地整合第三方技术，如mybatis,hibernate,springwebmvc,struts2,spring security，shiro
+- spring boot 与spring framework
+  - springboot是基于spring的二次封装，底层还是spring
+- springboot核心特性
+  - springboot的目的是简化基于spring框架的项目搭建与应用开发
+  - 约定大于配置
+  - 场景启动器starter
+  - 自动装配
+  - 嵌入式web容器
+  - 生产级的特性
