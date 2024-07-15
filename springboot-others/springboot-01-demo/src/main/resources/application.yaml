@@ -1,0 +1,14 @@
+server:
+  port: 8080
+person:
+  id: 2
+  name: tom
+  hobby: [吃饭,睡觉,打六花]
+  family: [father,mother]
+  map:
+    k1: v1
+    k2: v2
+#  map: (k1:v1,k2:v2)
+  pet:
+    name: 旺财
+    type: dog

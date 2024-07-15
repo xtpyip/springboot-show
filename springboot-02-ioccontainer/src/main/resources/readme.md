@@ -402,11 +402,11 @@
     - 文件内容为接口或抽象类的具体实现类的全限定名
     - 如果出现多个具体实现类，则每行声明一个类的全限定名，多个类之间没有分隔符
     ```java
-    // 路径 resources\META-INF\services\com.linkedbear.springboot.assemble.d_spi.bean.DemoDao
-    // 文件名 com.linkedbear.springboot.assemble.d_spi.bean.DemoDao
+    // 路径 resources\META-INF\services\com.pyip.springboot.assemble.d_spi.bean.DemoDao
+    // 文件名 com.pyip.springboot.assemble.d_spi.bean.DemoDao
     // 内容
-    com.linkedbear.springboot.assemble.d_spi.bean.DemoMySQLDaoImpl
-    com.linkedbear.springboot.assemble.d_spi.bean.DemoOracleDaoImpl
+    com.pyip.springboot.assemble.d_spi.bean.DemoMySQLDaoImpl
+    com.pyip.springboot.assemble.d_spi.bean.DemoOracleDaoImpl
     ```
 - 测试结果
   - 测试代码与结果
@@ -430,13 +430,13 @@
   # 路径 resources\META-INF\spring.factories
   # 文件名 spring.factories
   # 内容
-  com.linkedbear.spring.configuration.z_spi.bean.DemoDao=\
-    com.linkedbear.spring.configuration.z_spi.bean.DemoMySQLDaoImpl,\
-    com.linkedbear.spring.configuration.z_spi.bean.DemoOracleDaoImpl
-  com.linkedbear.spring.configuration.e_enablejdbc.config.EnableJdbc=\
-    com.linkedbear.spring.configuration.e_enablejdbc.config.MySQLJdbcConfiguration,\
-    com.linkedbear.spring.configuration.e_enablejdbc.config.OracleJdbcConfiguration,\
-    com.linkedbear.spring.configuration.e_enablejdbc.config.H2JdbcConfiguration
+  com.pyip.spring.configuration.z_spi.bean.DemoDao=\
+    com.pyip.spring.configuration.z_spi.bean.DemoMySQLDaoImpl,\
+    com.pyip.spring.configuration.z_spi.bean.DemoOracleDaoImpl
+  com.pyip.spring.configuration.e_enablejdbc.config.EnableJdbc=\
+    com.pyip.spring.configuration.e_enablejdbc.config.MySQLJdbcConfiguration,\
+    com.pyip.spring.configuration.e_enablejdbc.config.OracleJdbcConfiguration,\
+    com.pyip.spring.configuration.e_enablejdbc.config.H2JdbcConfiguration
   java.sql.Driver=\
     com.mysql.jdbc.Driver,\
     oracle.jdbc.driver.OracleDriver,\
@@ -482,8 +482,8 @@
               classLoaderToUse = SpringFactoriesLoader.class.getClassLoader();
           }
       // 得到properties文件内的factoryType对应的内容
-      // com.linkedbear.spring.configuration.z_spi.bean.DemoMySQLDaoImpl
-      // com.linkedbear.spring.configuration.z_spi.bean.DemoOracleDaoImpl
+      // com.pyip.spring.configuration.z_spi.bean.DemoMySQLDaoImpl
+      // com.pyip.spring.configuration.z_spi.bean.DemoOracleDaoImpl
           List<String> factoryImplementationNames = loadFactoryNames(factoryType, classLoaderToUse);
           if (logger.isTraceEnabled()) {
               logger.trace("Loaded [" + factoryType.getName() + "] names: " + factoryImplementationNames);
