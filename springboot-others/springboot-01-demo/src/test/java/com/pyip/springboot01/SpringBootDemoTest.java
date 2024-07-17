@@ -1,5 +1,6 @@
 package com.pyip.springboot01;
 
+import com.pyip.pojo.SimpleBean;
 import com.pyip.springboot01.config.MyService;
 import com.pyip.springboot01.controller.HelloController;
 import com.pyip.springboot01.pojo.MyProperties;
@@ -80,5 +81,13 @@ public class SpringBootDemoTest {
     public void test07(){
         // tom的年龄可能是15
         System.out.println(description);
+    }
+
+    @Autowired
+    private SimpleBean simpleBean;
+    @Test
+    public void test08(){
+        // com.pyip.pojo.SimpleBean@7a231dfd
+        System.out.println(simpleBean);
     }
 }
