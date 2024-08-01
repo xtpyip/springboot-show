@@ -26,7 +26,7 @@ import javax.persistence.*;
 //@Data
 //@ToString
 //@Entity(name = "t_comment")
-//public class Comment {
+public class Comment {
 //    @Id
 //    @GeneratedValue(strategy = GenerationType.IDENTITY)
 //    private Integer id;
@@ -34,4 +34,4 @@ import javax.persistence.*;
 //    private String author;
 //    @Column(name = "a_id")
 //    private Integer aId;
-//}
+}

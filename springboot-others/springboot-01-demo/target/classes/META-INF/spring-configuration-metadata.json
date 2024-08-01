@@ -1,0 +1,57 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.pyip.springboot01.pojo.Person",
+      "sourceType": "com.pyip.springboot01.pojo.Person"
+    },
+    {
+      "name": "test",
+      "type": "com.pyip.springboot01.pojo.MyProperties",
+      "sourceType": "com.pyip.springboot01.pojo.MyProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.family",
+      "type": "java.lang.String[]",
+      "sourceType": "com.pyip.springboot01.pojo.Person"
+    },
+    {
+      "name": "person.hobby",
+      "type": "java.util.List",
+      "sourceType": "com.pyip.springboot01.pojo.Person"
+    },
+    {
+      "name": "person.id",
+      "type": "java.lang.Integer",
+      "sourceType": "com.pyip.springboot01.pojo.Person"
+    },
+    {
+      "name": "person.map",
+      "type": "java.util.Map",
+      "sourceType": "com.pyip.springboot01.pojo.Person"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "com.pyip.springboot01.pojo.Person"
+    },
+    {
+      "name": "person.pet",
+      "type": "com.pyip.springboot01.pojo.Pet",
+      "sourceType": "com.pyip.springboot01.pojo.Person"
+    },
+    {
+      "name": "test.id",
+      "type": "java.lang.Integer",
+      "sourceType": "com.pyip.springboot01.pojo.MyProperties"
+    },
+    {
+      "name": "test.name",
+      "type": "java.lang.String",
+      "sourceType": "com.pyip.springboot01.pojo.MyProperties"
+    }
+  ],
+  "hints": []
+}

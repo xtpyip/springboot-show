@@ -1,4 +1,4 @@
-//package com.pyip.demo03.pojo;
+package com.pyip.demo03.pojo;
 //
 //import lombok.Data;
 //import lombok.Getter;
@@ -15,8 +15,8 @@
 //@Setter
 //@Getter
 //@ToString
-//public class Article {
+public class Article {
 //    private Integer id;
 //    private String content;
 //    private String title;
-//}
+}
