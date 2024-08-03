@@ -10,9 +10,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Description: 启动类
  **/
 @SpringBootApplication
-public class SpringBootLifecycleApplication {
+public class EmbeddedServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootLifecycleApplication.class, args);
+        SpringApplication.run(EmbeddedServerApplication.class, args);
     }
 }

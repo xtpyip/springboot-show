@@ -19,6 +19,15 @@
         <module>../springboot-01-quickstart</module>
         <module>../springboot-02-ioccontainer</module>
         <module>../springboot-03-ioccontainer</module>
+        <module>../springboot-04-springapplication</module>
+        <module>../springboot-05-aop</module>
+        <module>../springboot-06-lifecycle</module>
+        <module>../springboot-07-lifecycle</module>
+        <module>../springboot-08-enbeddedserver</module>
+        <module>../springboot-09-aop</module>
+        <module>../springboot-10-jdbc</module>
+        <module>../springboot-11-mybatis</module>
+        <module>../springboot-12-webmvc</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
